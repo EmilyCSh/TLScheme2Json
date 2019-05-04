@@ -1,0 +1,16 @@
+.dub
+docs.json
+dub.selections.json
+__dummy.html
+docs/
+/tlscheme2json
+tlscheme2json.so
+tlscheme2json.dylib
+tlscheme2json.dll
+tlscheme2json.a
+tlscheme2json.lib
+tlscheme2json-test-*
+*.exe
+*.o
+*.obj
+*.lst
