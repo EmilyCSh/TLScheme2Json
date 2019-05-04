@@ -15,7 +15,7 @@
 		],
 		"description": "An object of this type can be returned on every function call, in case of an error",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -24,7 +24,7 @@
 		"methods": null,
 		"description": "An object of this type is returned on a successful function call for certain functions",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -109,7 +109,7 @@
 		],
 		"description": "Contains parameters for TDLib initialization",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -118,7 +118,7 @@
 		"methods": null,
 		"description": "Provides information about the method by which an authentication code is delivered to the user",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -133,7 +133,7 @@
 		],
 		"description": "An authentication code is delivered via a private Telegram message, which can be viewed in another client",
 		"inheritance": "AuthenticationCodeType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -148,7 +148,7 @@
 		],
 		"description": "An authentication code is delivered via an SMS message to the specified phone number",
 		"inheritance": "AuthenticationCodeType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -163,7 +163,7 @@
 		],
 		"description": "An authentication code is delivered via a phone call to the specified phone number",
 		"inheritance": "AuthenticationCodeType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -178,7 +178,7 @@
 		],
 		"description": "An authentication code is delivered by an immediately cancelled call to the specified phone number. The number from which the call was made is the code",
 		"inheritance": "AuthenticationCodeType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -208,7 +208,7 @@
 		],
 		"description": "Information about the authentication code that was sent",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -228,7 +228,7 @@
 		],
 		"description": "Information about the email address authentication code that was sent",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -253,7 +253,7 @@
 		],
 		"description": "Represents a part of the text that needs to be formatted in some unusual way",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -268,7 +268,7 @@
 		],
 		"description": "Contains a list of text entities",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -288,7 +288,7 @@
 		],
 		"description": "A text with some entities",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -313,7 +313,7 @@
 		],
 		"description": "Contains Telegram terms of service",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -322,7 +322,7 @@
 		"methods": null,
 		"description": "Represents the current authorization state of the client",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -331,7 +331,7 @@
 		"methods": null,
 		"description": "TDLib needs TdlibParameters for initialization",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -346,7 +346,7 @@
 		],
 		"description": "TDLib needs an encryption key to decrypt the local database",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -355,7 +355,7 @@
 		"methods": null,
 		"description": "TDLib needs the user's phone number to authorize",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -380,7 +380,7 @@
 		],
 		"description": "TDLib needs the user's authentication code to finalize authorization",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -405,7 +405,7 @@
 		],
 		"description": "The user has been authorized, but needs to enter a password to start using the application",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -414,7 +414,7 @@
 		"methods": null,
 		"description": "The user has been successfully authorized. TDLib is now ready to answer queries",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -423,7 +423,7 @@
 		"methods": null,
 		"description": "The user is currently logging out",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -432,7 +432,7 @@
 		"methods": null,
 		"description": "TDLib is closing, all subsequent queries will be answered with the error 500. Note that closing TDLib can take a while. All resources will be freed only after authorizationStateClosed has been received",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -441,7 +441,7 @@
 		"methods": null,
 		"description": "TDLib client is in its final state. All databases are closed and all resources are released. No other updates will be received after this. All queries will be responded to with error code 500. To continue working, one should create a new instance of the TDLib client",
 		"inheritance": "AuthorizationState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -476,7 +476,7 @@
 		],
 		"description": "Represents the current state of 2-step verification",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -491,7 +491,7 @@
 		],
 		"description": "Contains information about the current recovery email address",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -511,7 +511,7 @@
 		],
 		"description": "Returns information about the availability of a temporary password, which can be used for payments",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -561,7 +561,7 @@
 		],
 		"description": "Represents a local file",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -591,7 +591,7 @@
 		],
 		"description": "Represents a remote file",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -626,7 +626,7 @@
 		],
 		"description": "Represents a file",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -635,7 +635,7 @@
 		"methods": null,
 		"description": "Points to a file",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -650,7 +650,7 @@
 		],
 		"description": "A file defined by its unique ID",
 		"inheritance": "InputFile",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -665,7 +665,7 @@
 		],
 		"description": "A file defined by its remote ID",
 		"inheritance": "InputFile",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -680,7 +680,7 @@
 		],
 		"description": "A file defined by a local path",
 		"inheritance": "InputFile",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -705,7 +705,7 @@
 		],
 		"description": "A file generated by the client",
 		"inheritance": "InputFile",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -735,7 +735,7 @@
 		],
 		"description": "Photo description",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -744,7 +744,7 @@
 		"methods": null,
 		"description": "Part of the face, relative to which a mask should be placed",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -753,7 +753,7 @@
 		"methods": null,
 		"description": "A mask should be placed relatively to the forehead",
 		"inheritance": "MaskPoint",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -762,7 +762,7 @@
 		"methods": null,
 		"description": "A mask should be placed relatively to the eyes",
 		"inheritance": "MaskPoint",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -771,7 +771,7 @@
 		"methods": null,
 		"description": "A mask should be placed relatively to the mouth",
 		"inheritance": "MaskPoint",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -780,7 +780,7 @@
 		"methods": null,
 		"description": "A mask should be placed relatively to the chin",
 		"inheritance": "MaskPoint",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -810,7 +810,7 @@
 		],
 		"description": "Position on a photo where a mask should be placed",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -845,7 +845,7 @@
 		],
 		"description": "Describes one answer option of a poll",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -890,7 +890,7 @@
 		],
 		"description": "Describes an animation file. The animation must be encoded in GIF or MPEG4 format",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -935,7 +935,7 @@
 		],
 		"description": "Describes an audio file. Audio is usually in MP3 format",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -965,7 +965,7 @@
 		],
 		"description": "Describes a document of any type",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -985,7 +985,7 @@
 		],
 		"description": "Describes a photo",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1035,7 +1035,7 @@
 		],
 		"description": "Describes a sticker",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1090,7 +1090,7 @@
 		],
 		"description": "Describes a video file",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1120,7 +1120,7 @@
 		],
 		"description": "Describes a video note. The video must be equal in width and height, cropped to a circle, and stored in MPEG4 format",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1150,7 +1150,7 @@
 		],
 		"description": "Describes a voice note. The voice note must be encoded with the Opus codec, and stored inside an OGG container. Voice notes can have only a single audio channel",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1185,7 +1185,7 @@
 		],
 		"description": "Describes a user contact",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1205,7 +1205,7 @@
 		],
 		"description": "Describes a location on planet Earth",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1245,7 +1245,7 @@
 		],
 		"description": "Describes a venue",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1290,7 +1290,7 @@
 		],
 		"description": "Describes a game",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1325,7 +1325,7 @@
 		],
 		"description": "Describes a poll",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1350,7 +1350,7 @@
 		],
 		"description": "Describes a user profile photo",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1370,7 +1370,7 @@
 		],
 		"description": "Describes the photo of a chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1379,7 +1379,7 @@
 		"methods": null,
 		"description": "Represents the relationship between user A and user B. For incoming_link, user A is the current user; for outgoing_link, user B is the current user",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1388,7 +1388,7 @@
 		"methods": null,
 		"description": "The phone number of user A is not known to user B",
 		"inheritance": "LinkState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1397,7 +1397,7 @@
 		"methods": null,
 		"description": "The phone number of user A is known but that number has not been saved to the contact list of user B",
 		"inheritance": "LinkState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1406,7 +1406,7 @@
 		"methods": null,
 		"description": "The phone number of user A has been saved to the contact list of user B",
 		"inheritance": "LinkState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1415,7 +1415,7 @@
 		"methods": null,
 		"description": "Represents the type of the user. The following types are possible: regular users, deleted users and bots",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1424,7 +1424,7 @@
 		"methods": null,
 		"description": "A regular user",
 		"inheritance": "UserType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1433,7 +1433,7 @@
 		"methods": null,
 		"description": "A deleted user or deleted bot. No information on the user besides the user_id is available. It is not possible to perform any active actions on this type of user",
 		"inheritance": "UserType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1468,7 +1468,7 @@
 		],
 		"description": "A bot (see https://core.telegram.org/bots)",
 		"inheritance": "UserType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1477,7 +1477,7 @@
 		"methods": null,
 		"description": "No information on the user besides the user_id is available, yet this user has not been deleted. This object is extremely rare and must be handled like a deleted user. It is not possible to perform any actions on users of this type",
 		"inheritance": "UserType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1497,7 +1497,7 @@
 		],
 		"description": "Represents commands supported by a bot",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1517,7 +1517,7 @@
 		],
 		"description": "Provides information about a bot and its supported commands",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1602,7 +1602,7 @@
 		],
 		"description": "Represents a user",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1647,7 +1647,7 @@
 		],
 		"description": "Contains full information about a user (except the full list of profile photos)",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1672,7 +1672,7 @@
 		],
 		"description": "Contains full information about a user profile photo",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1692,7 +1692,7 @@
 		],
 		"description": "Contains part of the list of user photos",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1712,7 +1712,7 @@
 		],
 		"description": "Represents a list of users",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1721,7 +1721,7 @@
 		"methods": null,
 		"description": "Provides information about the status of a member in a chat",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1736,7 +1736,7 @@
 		],
 		"description": "The user is the creator of a chat and has all the administrator privileges",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1791,7 +1791,7 @@
 		],
 		"description": "The user is a member of a chat and has some additional privileges. In basic groups, administrators can edit and delete messages sent by others, add new members, and ban unprivileged members. In supergroups and channels, there are more detailed options for administrator privileges",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1800,7 +1800,7 @@
 		"methods": null,
 		"description": "The user is a member of a chat, without any additional privileges or restrictions",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1840,7 +1840,7 @@
 		],
 		"description": "The user is under certain restrictions in the chat. Not supported in basic groups and channels",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1849,7 +1849,7 @@
 		"methods": null,
 		"description": "The user is not a chat member",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1864,7 +1864,7 @@
 		],
 		"description": "The user was banned (and hence is not a member of the chat). Implies the user can't return to the chat or view messages",
 		"inheritance": "ChatMemberStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1899,7 +1899,7 @@
 		],
 		"description": "A user with information about joining/leaving a chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1919,7 +1919,7 @@
 		],
 		"description": "Contains a list of chat members",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1928,7 +1928,7 @@
 		"methods": null,
 		"description": "Specifies the kind of chat members to return in searchChatMembers",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1937,7 +1937,7 @@
 		"methods": null,
 		"description": "Returns the creator and administrators",
 		"inheritance": "ChatMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1946,7 +1946,7 @@
 		"methods": null,
 		"description": "Returns all chat members, including restricted chat members",
 		"inheritance": "ChatMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1955,7 +1955,7 @@
 		"methods": null,
 		"description": "Returns users under certain restrictions in the chat; can be used only by administrators in a supergroup",
 		"inheritance": "ChatMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1964,7 +1964,7 @@
 		"methods": null,
 		"description": "Returns users banned from the chat; can be used only by administrators in a supergroup or in a channel",
 		"inheritance": "ChatMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1973,7 +1973,7 @@
 		"methods": null,
 		"description": "Returns bot members of the chat",
 		"inheritance": "ChatMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1982,7 +1982,7 @@
 		"methods": null,
 		"description": "Specifies the kind of chat members to return in getSupergroupMembers",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -1991,7 +1991,7 @@
 		"methods": null,
 		"description": "Returns recently active users in reverse chronological order",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2000,7 +2000,7 @@
 		"methods": null,
 		"description": "Returns the creator and administrators",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2015,7 +2015,7 @@
 		],
 		"description": "Used to search for supergroup or channel members via a (string) query",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2030,7 +2030,7 @@
 		],
 		"description": "Returns restricted supergroup members; can be used only by administrators",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2045,7 +2045,7 @@
 		],
 		"description": "Returns users banned from the supergroup or channel; can be used only by administrators",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2054,7 +2054,7 @@
 		"methods": null,
 		"description": "Returns bot members of the supergroup or channel",
 		"inheritance": "SupergroupMembersFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2094,7 +2094,7 @@
 		],
 		"description": "Represents a basic group of 0-200 users (must be upgraded to a supergroup to accommodate more than 200 users)",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2119,7 +2119,7 @@
 		],
 		"description": "Contains full information about a basic group",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2179,7 +2179,7 @@
 		],
 		"description": "Represents a supergroup or channel with zero or more members (subscribers in the case of channels). From the point of view of the system, a channel is a special kind of a supergroup: only administrators can post and see the list of members, and posts from all administrators use the name and photo of the channel instead of individual names and profile photos. Unlike supergroups, channels can have an unlimited number of subscribers",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2259,7 +2259,7 @@
 		],
 		"description": "Contains full information about a supergroup or channel",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2268,7 +2268,7 @@
 		"methods": null,
 		"description": "Describes the current secret chat state",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2277,7 +2277,7 @@
 		"methods": null,
 		"description": "The secret chat is not yet created; waiting for the other user to get online",
 		"inheritance": "SecretChatState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2286,7 +2286,7 @@
 		"methods": null,
 		"description": "The secret chat is ready to use",
 		"inheritance": "SecretChatState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2295,7 +2295,7 @@
 		"methods": null,
 		"description": "The secret chat is closed",
 		"inheritance": "SecretChatState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2340,7 +2340,7 @@
 		],
 		"description": "Represents a secret chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2349,7 +2349,7 @@
 		"methods": null,
 		"description": "Contains information about the origin of a forwarded message",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2364,7 +2364,7 @@
 		],
 		"description": "The message was originally written by a known user",
 		"inheritance": "MessageForwardOrigin",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2379,7 +2379,7 @@
 		],
 		"description": "The message was originally written by a user, which is hidden by his privacy settings",
 		"inheritance": "MessageForwardOrigin",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2404,7 +2404,7 @@
 		],
 		"description": "The message was originally a post in a channel",
 		"inheritance": "MessageForwardOrigin",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2434,7 +2434,7 @@
 		],
 		"description": "Contains information about a forwarded message",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2443,7 +2443,7 @@
 		"methods": null,
 		"description": "Contains information about the sending state of the message",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2452,7 +2452,7 @@
 		"methods": null,
 		"description": "The message is being sent now, but has not yet been delivered to the server",
 		"inheritance": "MessageSendingState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2461,7 +2461,7 @@
 		"methods": null,
 		"description": "The message failed to be sent",
 		"inheritance": "MessageSendingState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2586,7 +2586,7 @@
 		],
 		"description": "Describes a message",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2606,7 +2606,7 @@
 		],
 		"description": "Contains a list of messages",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2626,7 +2626,7 @@
 		],
 		"description": "Contains a list of messages found by a search",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2635,7 +2635,7 @@
 		"methods": null,
 		"description": "Describes the types of chats to which notification settings are applied",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2644,7 +2644,7 @@
 		"methods": null,
 		"description": "Notification settings applied to all private and secret chats when the corresponding chat setting has a default value",
 		"inheritance": "NotificationSettingsScope",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2653,7 +2653,7 @@
 		"methods": null,
 		"description": "Notification settings applied to all basic groups and supergroups when the corresponding chat setting has a default value",
 		"inheritance": "NotificationSettingsScope",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2662,7 +2662,7 @@
 		"methods": null,
 		"description": "Notification settings applied to all channels when the corresponding chat setting has a default value",
 		"inheritance": "NotificationSettingsScope",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2722,7 +2722,7 @@
 		],
 		"description": "Contains information about notification settings for a chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2757,7 +2757,7 @@
 		],
 		"description": "Contains information about notification settings for several chats",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2777,7 +2777,7 @@
 		],
 		"description": "Contains information about a message draft",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2786,7 +2786,7 @@
 		"methods": null,
 		"description": "Describes the type of a chat",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2801,7 +2801,7 @@
 		],
 		"description": "An ordinary chat with a user",
 		"inheritance": "ChatType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2816,7 +2816,7 @@
 		],
 		"description": "A basic group (i.e., a chat with 0-200 other users)",
 		"inheritance": "ChatType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2836,7 +2836,7 @@
 		],
 		"description": "A supergroup (i.e. a chat with up to GetOption(\"supergroup_max_size\") other users), or channel (with unlimited members)",
 		"inheritance": "ChatType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2856,7 +2856,7 @@
 		],
 		"description": "A secret chat with a user",
 		"inheritance": "ChatType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2976,7 +2976,7 @@
 		],
 		"description": "A chat. (Can be a private chat, basic group, supergroup, or secret chat)",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -2991,7 +2991,7 @@
 		],
 		"description": "Represents a list of chats",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3006,7 +3006,7 @@
 		],
 		"description": "Contains a chat invite link",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3051,7 +3051,7 @@
 		],
 		"description": "Contains information about a chat invite link",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3060,7 +3060,7 @@
 		"methods": null,
 		"description": "Describes a keyboard button type",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3069,7 +3069,7 @@
 		"methods": null,
 		"description": "A simple button, with text that should be sent when the button is pressed",
 		"inheritance": "KeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3078,7 +3078,7 @@
 		"methods": null,
 		"description": "A button that sends the user's phone number when pressed; available only in private chats",
 		"inheritance": "KeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3087,7 +3087,7 @@
 		"methods": null,
 		"description": "A button that sends the user's location when pressed; available only in private chats",
 		"inheritance": "KeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3107,7 +3107,7 @@
 		],
 		"description": "Represents a single button in a bot keyboard",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3116,7 +3116,7 @@
 		"methods": null,
 		"description": "Describes the type of an inline keyboard button",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3131,7 +3131,7 @@
 		],
 		"description": "A button that opens a specified URL",
 		"inheritance": "InlineKeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3146,7 +3146,7 @@
 		],
 		"description": "A button that sends a special callback query to a bot",
 		"inheritance": "InlineKeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3155,7 +3155,7 @@
 		"methods": null,
 		"description": "A button with a game that sends a special callback query to a bot. This button must be in the first column and row of the keyboard and can be attached only to a message with content of the type messageGame",
 		"inheritance": "InlineKeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3175,7 +3175,7 @@
 		],
 		"description": "A button that forces an inline query to the bot to be inserted in the input field",
 		"inheritance": "InlineKeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3184,7 +3184,7 @@
 		"methods": null,
 		"description": "A button to buy something. This button must be in the first column and row of the keyboard and can be attached only to a message with content of the type messageInvoice",
 		"inheritance": "InlineKeyboardButtonType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3204,7 +3204,7 @@
 		],
 		"description": "Represents a single button in an inline keyboard",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3213,7 +3213,7 @@
 		"methods": null,
 		"description": "Contains a  of a custom keyboard and actions that can be done with it to quickly reply to bots",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3228,7 +3228,7 @@
 		],
 		"description": "Instructs clients to remove the keyboard once this message has been received. This kind of keyboard can't be received in an incoming message; instead, UpdateChatReplyMarkup with message_id == 0 will be sent",
 		"inheritance": "ReplyMarkup",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3243,7 +3243,7 @@
 		],
 		"description": "Instructs clients to force a reply to this message",
 		"inheritance": "ReplyMarkup",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3273,7 +3273,7 @@
 		],
 		"description": "Contains a custom keyboard layout to quickly reply to bots",
 		"inheritance": "ReplyMarkup",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3288,7 +3288,7 @@
 		],
 		"description": "Contains an inline keyboard layout",
 		"inheritance": "ReplyMarkup",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3297,7 +3297,7 @@
 		"methods": null,
 		"description": "Describes a text object inside an instant-view web page",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3312,7 +3312,7 @@
 		],
 		"description": "A plain text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3327,7 +3327,7 @@
 		],
 		"description": "A bold rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3342,7 +3342,7 @@
 		],
 		"description": "An italicized rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3357,7 +3357,7 @@
 		],
 		"description": "An underlined rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3372,7 +3372,7 @@
 		],
 		"description": "A strike-through rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3387,7 +3387,7 @@
 		],
 		"description": "A fixed-width rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3407,7 +3407,7 @@
 		],
 		"description": "A rich text URL link",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3427,7 +3427,7 @@
 		],
 		"description": "A rich text email link",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3442,7 +3442,7 @@
 		],
 		"description": "A subscript rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3457,7 +3457,7 @@
 		],
 		"description": "A superscript rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3472,7 +3472,7 @@
 		],
 		"description": "A marked rich text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3492,7 +3492,7 @@
 		],
 		"description": "A rich text phone number",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3517,7 +3517,7 @@
 		],
 		"description": "A small image inside the text",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3537,7 +3537,7 @@
 		],
 		"description": "A rich text anchor",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3552,7 +3552,7 @@
 		],
 		"description": "A concatenation of rich texts",
 		"inheritance": "RichText",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3572,7 +3572,7 @@
 		],
 		"description": "Contains a caption of an instant view web page block, consisting of a text and a trailing credit",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3592,7 +3592,7 @@
 		],
 		"description": "Describes an item of a list page block",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3601,7 +3601,7 @@
 		"methods": null,
 		"description": "Describes a horizontal alignment of a table cell content",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3610,7 +3610,7 @@
 		"methods": null,
 		"description": "The content should be left-aligned",
 		"inheritance": "PageBlockHorizontalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3619,7 +3619,7 @@
 		"methods": null,
 		"description": "The content should be center-aligned",
 		"inheritance": "PageBlockHorizontalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3628,7 +3628,7 @@
 		"methods": null,
 		"description": "The content should be right-aligned",
 		"inheritance": "PageBlockHorizontalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3637,7 +3637,7 @@
 		"methods": null,
 		"description": "Describes a Vertical alignment of a table cell content",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3646,7 +3646,7 @@
 		"methods": null,
 		"description": "The content should be top-aligned",
 		"inheritance": "PageBlockVerticalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3655,7 +3655,7 @@
 		"methods": null,
 		"description": "The content should be middle-aligned",
 		"inheritance": "PageBlockVerticalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3664,7 +3664,7 @@
 		"methods": null,
 		"description": "The content should be bottom-aligned",
 		"inheritance": "PageBlockVerticalAlignment",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3704,7 +3704,7 @@
 		],
 		"description": "Represents a cell of a table",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3744,7 +3744,7 @@
 		],
 		"description": "Contains information about a related article",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3753,7 +3753,7 @@
 		"methods": null,
 		"description": "Describes a block of an instant view web page",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3768,7 +3768,7 @@
 		],
 		"description": "The title of a page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3783,7 +3783,7 @@
 		],
 		"description": "The subtitle of a page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3803,7 +3803,7 @@
 		],
 		"description": "The author and publishing date of a page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3818,7 +3818,7 @@
 		],
 		"description": "A header",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3833,7 +3833,7 @@
 		],
 		"description": "A subheader",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3848,7 +3848,7 @@
 		],
 		"description": "A kicker",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3863,7 +3863,7 @@
 		],
 		"description": "A text paragraph",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3883,7 +3883,7 @@
 		],
 		"description": "A preformatted text paragraph",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3898,7 +3898,7 @@
 		],
 		"description": "The footer of a page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3907,7 +3907,7 @@
 		"methods": null,
 		"description": "An empty block separating a page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3922,7 +3922,7 @@
 		],
 		"description": "An invisible anchor on a page, which can be used in a URL to open the page from the specified anchor",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3937,7 +3937,7 @@
 		],
 		"description": "A list of data blocks",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3957,7 +3957,7 @@
 		],
 		"description": "A block quote",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -3977,7 +3977,7 @@
 		],
 		"description": "A pull quote",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4002,7 +4002,7 @@
 		],
 		"description": "An animation",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4022,7 +4022,7 @@
 		],
 		"description": "An audio file",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4047,7 +4047,7 @@
 		],
 		"description": "A photo",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4077,7 +4077,7 @@
 		],
 		"description": "A video",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4092,7 +4092,7 @@
 		],
 		"description": "A page cover",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4142,7 +4142,7 @@
 		],
 		"description": "An embedded web page",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4182,7 +4182,7 @@
 		],
 		"description": "An embedded post",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4202,7 +4202,7 @@
 		],
 		"description": "A collage",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4222,7 +4222,7 @@
 		],
 		"description": "A slideshow",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4247,7 +4247,7 @@
 		],
 		"description": "A link to a chat",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4277,7 +4277,7 @@
 		],
 		"description": "A table",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4302,7 +4302,7 @@
 		],
 		"description": "A collapsible block",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4322,7 +4322,7 @@
 		],
 		"description": "Related articles",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4357,7 +4357,7 @@
 		],
 		"description": "A map",
 		"inheritance": "PageBlock",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4392,7 +4392,7 @@
 		],
 		"description": "Describes an instant view page for a web page",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4507,7 +4507,7 @@
 		],
 		"description": "Describes a web page preview",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4547,7 +4547,7 @@
 		],
 		"description": "Describes an address",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4567,7 +4567,7 @@
 		],
 		"description": "Portion of the price of a product (e.g., \"delivery cost\", \"tax amount\")",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4627,7 +4627,7 @@
 		],
 		"description": "Product invoice",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4657,7 +4657,7 @@
 		],
 		"description": "Order information",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4682,7 +4682,7 @@
 		],
 		"description": "One shipping option",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4702,7 +4702,7 @@
 		],
 		"description": "Contains information about saved card credentials",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4711,7 +4711,7 @@
 		"methods": null,
 		"description": "Contains information about the payment method chosen by the user",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4726,7 +4726,7 @@
 		],
 		"description": "Applies if a user chooses some previously saved payment credentials. To use their previously saved credentials, the user must have a valid temporary password",
 		"inheritance": "InputCredentials",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4746,7 +4746,7 @@
 		],
 		"description": "Applies if a user enters new credentials on a payment provider website",
 		"inheritance": "InputCredentials",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4761,7 +4761,7 @@
 		],
 		"description": "Applies if a user enters new credentials using Android Pay",
 		"inheritance": "InputCredentials",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4776,7 +4776,7 @@
 		],
 		"description": "Applies if a user enters new credentials using Apple Pay",
 		"inheritance": "InputCredentials",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4806,7 +4806,7 @@
 		],
 		"description": "Stripe payment provider",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4851,7 +4851,7 @@
 		],
 		"description": "Contains information about an invoice payment form",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4871,7 +4871,7 @@
 		],
 		"description": "Contains a temporary identifier of validated order information, which is stored for one hour. Also contains the available shipping options",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4891,7 +4891,7 @@
 		],
 		"description": "Contains the result of a payment request",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4931,7 +4931,7 @@
 		],
 		"description": "Contains information about a successful payment",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4951,7 +4951,7 @@
 		],
 		"description": "File with the date it was uploaded",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4960,7 +4960,7 @@
 		"methods": null,
 		"description": "Contains the type of a Telegram Passport element",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4969,7 +4969,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's personal details",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4978,7 +4978,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's passport",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4987,7 +4987,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's driver license",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -4996,7 +4996,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's identity card",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5005,7 +5005,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's internal passport",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5014,7 +5014,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's address",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5023,7 +5023,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's utility bill",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5032,7 +5032,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's bank statement",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5041,7 +5041,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's rental agreement",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5050,7 +5050,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the registration page of the user's passport",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5059,7 +5059,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's temporary registration",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5068,7 +5068,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's phone number",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5077,7 +5077,7 @@
 		"methods": null,
 		"description": "A Telegram Passport element containing the user's email address",
 		"inheritance": "PassportElementType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5102,7 +5102,7 @@
 		],
 		"description": "Represents a date according to the Gregorian calendar",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5162,7 +5162,7 @@
 		],
 		"description": "Contains the user's personal details",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5202,7 +5202,7 @@
 		],
 		"description": "An identity document",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5242,7 +5242,7 @@
 		],
 		"description": "An identity document to be saved to Telegram Passport",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5262,7 +5262,7 @@
 		],
 		"description": "A personal document, containing some information about a user",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5282,7 +5282,7 @@
 		],
 		"description": "A personal document to be saved to Telegram Passport",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5291,7 +5291,7 @@
 		"methods": null,
 		"description": "Contains information about a Telegram Passport element",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5306,7 +5306,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's personal details",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5321,7 +5321,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's passport",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5336,7 +5336,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's driver license",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5351,7 +5351,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's identity card",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5366,7 +5366,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's internal passport",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5381,7 +5381,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's address",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5396,7 +5396,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's utility bill",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5411,7 +5411,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's bank statement",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5426,7 +5426,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's rental agreement",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5441,7 +5441,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's passport registration pages",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5456,7 +5456,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's temporary registration",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5471,7 +5471,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's phone number",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5486,7 +5486,7 @@
 		],
 		"description": "A Telegram Passport element containing the user's email address",
 		"inheritance": "PassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5495,7 +5495,7 @@
 		"methods": null,
 		"description": "Contains information about a Telegram Passport element to be saved",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5510,7 +5510,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's personal details",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5525,7 +5525,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's passport",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5540,7 +5540,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's driver license",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5555,7 +5555,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's identity card",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5570,7 +5570,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's internal passport",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5585,7 +5585,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's address",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5600,7 +5600,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's utility bill",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5615,7 +5615,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's bank statement",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5630,7 +5630,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's rental agreement",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5645,7 +5645,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's passport registration",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5660,7 +5660,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's temporary registration",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5675,7 +5675,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's phone number",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5690,7 +5690,7 @@
 		],
 		"description": "A Telegram Passport element to be saved containing the user's email address",
 		"inheritance": "InputPassportElement",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5705,7 +5705,7 @@
 		],
 		"description": "Contains information about saved Telegram Passport elements",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5714,7 +5714,7 @@
 		"methods": null,
 		"description": "Contains the  of an error in a Telegram Passport element",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5723,7 +5723,7 @@
 		"methods": null,
 		"description": "The element contains an error in an unspecified place. The error will be considered resolved when new data is added",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5738,7 +5738,7 @@
 		],
 		"description": "One of the data fields contains an error. The error will be considered resolved when the value of the field changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5747,7 +5747,7 @@
 		"methods": null,
 		"description": "The front side of the document contains an error. The error will be considered resolved when the file with the front side changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5756,7 +5756,7 @@
 		"methods": null,
 		"description": "The reverse side of the document contains an error. The error will be considered resolved when the file with the reverse side changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5765,7 +5765,7 @@
 		"methods": null,
 		"description": "The selfie with the document contains an error. The error will be considered resolved when the file with the selfie changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5780,7 +5780,7 @@
 		],
 		"description": "One of files with the translation of the document contains an error. The error will be considered resolved when the file changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5789,7 +5789,7 @@
 		"methods": null,
 		"description": "The translation of the document contains an error. The error will be considered resolved when the list of translation files changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5804,7 +5804,7 @@
 		],
 		"description": "The file contains an error. The error will be considered resolved when the file changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5813,7 +5813,7 @@
 		"methods": null,
 		"description": "The list of attached files contains an error. The error will be considered resolved when the list of files changes",
 		"inheritance": "PassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5838,7 +5838,7 @@
 		],
 		"description": "Contains the description of an error in a Telegram Passport element",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5868,7 +5868,7 @@
 		],
 		"description": "Contains information about a Telegram Passport element that was requested by a service",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5883,7 +5883,7 @@
 		],
 		"description": "Contains a description of the required Telegram Passport element that was requested by a service",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5908,7 +5908,7 @@
 		],
 		"description": "Contains information about a Telegram Passport authorization form that was requested",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5928,7 +5928,7 @@
 		],
 		"description": "Contains information about a Telegram Passport elements and corresponding errors",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -5953,7 +5953,7 @@
 		],
 		"description": "Contains encrypted Telegram Passport data credentials",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6008,7 +6008,7 @@
 		],
 		"description": "Contains information about an encrypted Telegram Passport element; for bots only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6017,7 +6017,7 @@
 		"methods": null,
 		"description": "Contains the  of an error in a Telegram Passport element; for bots only",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6032,7 +6032,7 @@
 		],
 		"description": "The element contains an error in an unspecified place. The error will be considered resolved when new data is added",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6052,7 +6052,7 @@
 		],
 		"description": "A data field contains an error. The error is considered resolved when the field's value changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6067,7 +6067,7 @@
 		],
 		"description": "The front side of the document contains an error. The error is considered resolved when the file with the front side of the document changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6082,7 +6082,7 @@
 		],
 		"description": "The reverse side of the document contains an error. The error is considered resolved when the file with the reverse side of the document changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6097,7 +6097,7 @@
 		],
 		"description": "The selfie contains an error. The error is considered resolved when the file with the selfie changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6112,7 +6112,7 @@
 		],
 		"description": "One of the files containing the translation of the document contains an error. The error is considered resolved when the file with the translation changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6127,7 +6127,7 @@
 		],
 		"description": "The translation of the document contains an error. The error is considered resolved when the list of files changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6142,7 +6142,7 @@
 		],
 		"description": "The file contains an error. The error is considered resolved when the file changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6157,7 +6157,7 @@
 		],
 		"description": "The list of attached files contains an error. The error is considered resolved when the file list changes",
 		"inheritance": "InputPassportElementErrorSource",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6182,7 +6182,7 @@
 		],
 		"description": "Contains the description of an error in a Telegram Passport element; for bots only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6191,7 +6191,7 @@
 		"methods": null,
 		"description": "Contains the content of a message",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6211,7 +6211,7 @@
 		],
 		"description": "A text message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6236,7 +6236,7 @@
 		],
 		"description": "An animation message (GIF-style).",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6256,7 +6256,7 @@
 		],
 		"description": "An audio message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6276,7 +6276,7 @@
 		],
 		"description": "A document message (general file)",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6301,7 +6301,7 @@
 		],
 		"description": "A photo message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6310,7 +6310,7 @@
 		"methods": null,
 		"description": "An expired photo message (self-destructed after TTL has elapsed)",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6325,7 +6325,7 @@
 		],
 		"description": "A sticker message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6350,7 +6350,7 @@
 		],
 		"description": "A video message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6359,7 +6359,7 @@
 		"methods": null,
 		"description": "An expired video message (self-destructed after TTL has elapsed)",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6384,7 +6384,7 @@
 		],
 		"description": "A video note message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6409,7 +6409,7 @@
 		],
 		"description": "A voice note message",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6434,7 +6434,7 @@
 		],
 		"description": "A message with a location",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6449,7 +6449,7 @@
 		],
 		"description": "A message with information about a venue",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6464,7 +6464,7 @@
 		],
 		"description": "A message with a user contact",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6479,7 +6479,7 @@
 		],
 		"description": "A message with a game",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6494,7 +6494,7 @@
 		],
 		"description": "A message with a poll",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6549,7 +6549,7 @@
 		],
 		"description": "A message with an invoice from a bot",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6569,7 +6569,7 @@
 		],
 		"description": "A message with information about an ended call",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6589,7 +6589,7 @@
 		],
 		"description": "A newly created basic group",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6604,7 +6604,7 @@
 		],
 		"description": "A newly created supergroup or channel",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6619,7 +6619,7 @@
 		],
 		"description": "An updated chat title",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6634,7 +6634,7 @@
 		],
 		"description": "An updated chat photo",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6643,7 +6643,7 @@
 		"methods": null,
 		"description": "A deleted chat photo",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6658,7 +6658,7 @@
 		],
 		"description": "New chat members were added",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6667,7 +6667,7 @@
 		"methods": null,
 		"description": "A new member joined the chat by invite link",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6682,7 +6682,7 @@
 		],
 		"description": "A chat member was deleted",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6697,7 +6697,7 @@
 		],
 		"description": "A basic group was upgraded to a supergroup and was deactivated as the result",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6717,7 +6717,7 @@
 		],
 		"description": "A supergroup has been created from a basic group",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6732,7 +6732,7 @@
 		],
 		"description": "A message has been pinned",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6741,7 +6741,7 @@
 		"methods": null,
 		"description": "A screenshot of a message in the chat has been taken",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6756,7 +6756,7 @@
 		],
 		"description": "The TTL (Time To Live) setting messages in a secret chat has been changed",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6771,7 +6771,7 @@
 		],
 		"description": "A non-standard action has happened in the chat",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6796,7 +6796,7 @@
 		],
 		"description": "A new high score was achieved in a game",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6821,7 +6821,7 @@
 		],
 		"description": "A payment has been completed",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6871,7 +6871,7 @@
 		],
 		"description": "A payment has been completed; for bots only",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6880,7 +6880,7 @@
 		"methods": null,
 		"description": "A contact has registered with Telegram",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6895,7 +6895,7 @@
 		],
 		"description": "The current user has connected a website by logging in using Telegram Login Widget on it",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6910,7 +6910,7 @@
 		],
 		"description": "Telegram Passport data has been sent",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6930,7 +6930,7 @@
 		],
 		"description": "Telegram Passport data has been received; for bots only",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6939,7 +6939,7 @@
 		"methods": null,
 		"description": "Message content that is not supported by the client",
 		"inheritance": "MessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6948,7 +6948,7 @@
 		"methods": null,
 		"description": "Represents a part of the text which must be formatted differently",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6957,7 +6957,7 @@
 		"methods": null,
 		"description": "A mention of a user by their username",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6966,7 +6966,7 @@
 		"methods": null,
 		"description": "A hashtag text, beginning with \"#\"",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6975,7 +6975,7 @@
 		"methods": null,
 		"description": "A cashtag text, beginning with \"$\" and consisting of capital english letters (i.e. \"$USD\")",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6984,7 +6984,7 @@
 		"methods": null,
 		"description": "A bot command, beginning with \"/\". This shouldn't be highlighted if there are no bots in the chat",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -6993,7 +6993,7 @@
 		"methods": null,
 		"description": "An HTTP URL",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7002,7 +7002,7 @@
 		"methods": null,
 		"description": "An email address",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7011,7 +7011,7 @@
 		"methods": null,
 		"description": "A bold text",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7020,7 +7020,7 @@
 		"methods": null,
 		"description": "An italic text",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7029,7 +7029,7 @@
 		"methods": null,
 		"description": "Text that must be formatted as if inside a code HTML tag",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7038,7 +7038,7 @@
 		"methods": null,
 		"description": "Text that must be formatted as if inside a pre HTML tag",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7053,7 +7053,7 @@
 		],
 		"description": "Text that must be formatted as if inside pre, and code HTML tags",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7068,7 +7068,7 @@
 		],
 		"description": "A text description shown instead of a raw URL",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7083,7 +7083,7 @@
 		],
 		"description": "A text shows instead of a raw mention of the user (e.g., when the user has no username)",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7092,7 +7092,7 @@
 		"methods": null,
 		"description": "A phone number",
 		"inheritance": "TextEntityType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7117,7 +7117,7 @@
 		],
 		"description": "A thumbnail to be sent along with a file; should be in JPEG or WEBP format for stickers, and less than 200 kB in size",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7126,7 +7126,7 @@
 		"methods": null,
 		"description": "The content of a message to send",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7151,7 +7151,7 @@
 		],
 		"description": "A text message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7191,7 +7191,7 @@
 		],
 		"description": "An animation message (GIF-style).",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7231,7 +7231,7 @@
 		],
 		"description": "An audio message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7256,7 +7256,7 @@
 		],
 		"description": "A document message (general file)",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7301,7 +7301,7 @@
 		],
 		"description": "A photo message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7331,7 +7331,7 @@
 		],
 		"description": "A sticker message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7386,7 +7386,7 @@
 		],
 		"description": "A video message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7416,7 +7416,7 @@
 		],
 		"description": "A video note message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7446,7 +7446,7 @@
 		],
 		"description": "A voice note message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7466,7 +7466,7 @@
 		],
 		"description": "A message with a location",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7481,7 +7481,7 @@
 		],
 		"description": "A message with information about a venue",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7496,7 +7496,7 @@
 		],
 		"description": "A message containing a user contact",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7516,7 +7516,7 @@
 		],
 		"description": "A message with a game; not supported for channels or secret chats",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7581,7 +7581,7 @@
 		],
 		"description": "A message with an invoice; can be used only by bots and only in private chats",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7601,7 +7601,7 @@
 		],
 		"description": "A message with a poll. Polls can't be sent to private or secret chats",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7626,7 +7626,7 @@
 		],
 		"description": "A forwarded message",
 		"inheritance": "InputMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7635,7 +7635,7 @@
 		"methods": null,
 		"description": "Represents a filter for message search results",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7644,7 +7644,7 @@
 		"methods": null,
 		"description": "Returns all found messages, no filter is applied",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7653,7 +7653,7 @@
 		"methods": null,
 		"description": "Returns only animation messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7662,7 +7662,7 @@
 		"methods": null,
 		"description": "Returns only audio messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7671,7 +7671,7 @@
 		"methods": null,
 		"description": "Returns only document messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7680,7 +7680,7 @@
 		"methods": null,
 		"description": "Returns only photo messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7689,7 +7689,7 @@
 		"methods": null,
 		"description": "Returns only video messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7698,7 +7698,7 @@
 		"methods": null,
 		"description": "Returns only voice note messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7707,7 +7707,7 @@
 		"methods": null,
 		"description": "Returns only photo and video messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7716,7 +7716,7 @@
 		"methods": null,
 		"description": "Returns only messages containing URLs",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7725,7 +7725,7 @@
 		"methods": null,
 		"description": "Returns only messages containing chat photos",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7734,7 +7734,7 @@
 		"methods": null,
 		"description": "Returns only call messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7743,7 +7743,7 @@
 		"methods": null,
 		"description": "Returns only incoming call messages with missed/declined discard reasons",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7752,7 +7752,7 @@
 		"methods": null,
 		"description": "Returns only video note messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7761,7 +7761,7 @@
 		"methods": null,
 		"description": "Returns only voice and video note messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7770,7 +7770,7 @@
 		"methods": null,
 		"description": "Returns only messages with mentions of the current user, or messages that are replies to their messages",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7779,7 +7779,7 @@
 		"methods": null,
 		"description": "Returns only messages with unread mentions of the current user, or messages that are replies to their messages. When using this filter the results can't be additionally filtered by a query or by the sending user",
 		"inheritance": "SearchMessagesFilter",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7788,7 +7788,7 @@
 		"methods": null,
 		"description": "Describes the different types of activity in a chat",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7797,7 +7797,7 @@
 		"methods": null,
 		"description": "The user is typing a message",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7806,7 +7806,7 @@
 		"methods": null,
 		"description": "The user is recording a video",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7821,7 +7821,7 @@
 		],
 		"description": "The user is uploading a video",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7830,7 +7830,7 @@
 		"methods": null,
 		"description": "The user is recording a voice note",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7845,7 +7845,7 @@
 		],
 		"description": "The user is uploading a voice note",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7860,7 +7860,7 @@
 		],
 		"description": "The user is uploading a photo",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7875,7 +7875,7 @@
 		],
 		"description": "The user is uploading a document",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7884,7 +7884,7 @@
 		"methods": null,
 		"description": "The user is picking a location or venue to send",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7893,7 +7893,7 @@
 		"methods": null,
 		"description": "The user is picking a contact to send",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7902,7 +7902,7 @@
 		"methods": null,
 		"description": "The user has started to play a game",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7911,7 +7911,7 @@
 		"methods": null,
 		"description": "The user is recording a video note",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7926,7 +7926,7 @@
 		],
 		"description": "The user is uploading a video note",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7935,7 +7935,7 @@
 		"methods": null,
 		"description": "The user has cancelled the previous action",
 		"inheritance": "ChatAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7944,7 +7944,7 @@
 		"methods": null,
 		"description": "Describes the last time the user was online",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7953,7 +7953,7 @@
 		"methods": null,
 		"description": "The user status was never changed",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7968,7 +7968,7 @@
 		],
 		"description": "The user is online",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7983,7 +7983,7 @@
 		],
 		"description": "The user is offline",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -7992,7 +7992,7 @@
 		"methods": null,
 		"description": "The user was online recently",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8001,7 +8001,7 @@
 		"methods": null,
 		"description": "The user is offline, but was online last week",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8010,7 +8010,7 @@
 		"methods": null,
 		"description": "The user is offline, but was online last month",
 		"inheritance": "UserStatus",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8025,7 +8025,7 @@
 		],
 		"description": "Represents a list of stickers",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8040,7 +8040,7 @@
 		],
 		"description": "Represents a list of all emoji corresponding to a sticker in a sticker set. The list is only for informational purposes, because a sticker is always sent with a fixed emoji from the corresponding Sticker object",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8100,7 +8100,7 @@
 		],
 		"description": "Represents a sticker set",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8160,7 +8160,7 @@
 		],
 		"description": "Represents short information about a sticker set",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8180,7 +8180,7 @@
 		],
 		"description": "Represents a list of sticker sets",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8189,7 +8189,7 @@
 		"methods": null,
 		"description": "Describes the reason why a call was discarded",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8198,7 +8198,7 @@
 		"methods": null,
 		"description": "The call wasn't discarded, or the reason is unknown",
 		"inheritance": "CallDiscardReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8207,7 +8207,7 @@
 		"methods": null,
 		"description": "The call was ended before the conversation started. It was cancelled by the caller or missed by the other party",
 		"inheritance": "CallDiscardReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8216,7 +8216,7 @@
 		"methods": null,
 		"description": "The call was ended before the conversation started. It was declined by the other party",
 		"inheritance": "CallDiscardReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8225,7 +8225,7 @@
 		"methods": null,
 		"description": "The call was ended during the conversation because the users were disconnected",
 		"inheritance": "CallDiscardReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8234,7 +8234,7 @@
 		"methods": null,
 		"description": "The call was ended because one of the parties hung up",
 		"inheritance": "CallDiscardReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8264,7 +8264,7 @@
 		],
 		"description": "Specifies the supported call protocols",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8299,7 +8299,7 @@
 		],
 		"description": "Describes the address of UDP reflectors",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8314,7 +8314,7 @@
 		],
 		"description": "Contains the call identifier",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8323,7 +8323,7 @@
 		"methods": null,
 		"description": "Describes the current call state",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8343,7 +8343,7 @@
 		],
 		"description": "The call is pending, waiting to be accepted by a user",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8352,7 +8352,7 @@
 		"methods": null,
 		"description": "The call has been answered and encryption keys are being exchanged",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8392,7 +8392,7 @@
 		],
 		"description": "The call is ready to use",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8401,7 +8401,7 @@
 		"methods": null,
 		"description": "The call is hanging up after discardCall has been called",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8426,7 +8426,7 @@
 		],
 		"description": "The call has ended successfully",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8441,7 +8441,7 @@
 		],
 		"description": "The call has ended with an error",
 		"inheritance": "CallState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8471,7 +8471,7 @@
 		],
 		"description": "Describes a call",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8486,7 +8486,7 @@
 		],
 		"description": "Represents a list of animations",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8506,7 +8506,7 @@
 		],
 		"description": "Represents the result of an ImportContacts request",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8521,7 +8521,7 @@
 		],
 		"description": "Contains an HTTP URL",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8530,7 +8530,7 @@
 		"methods": null,
 		"description": "Represents a single result of an inline query; for bots only",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8585,7 +8585,7 @@
 		],
 		"description": "Represents a link to an animated GIF",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8640,7 +8640,7 @@
 		],
 		"description": "Represents a link to an animated (i.e. without sound) H.264/MPEG-4 AVC video",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8700,7 +8700,7 @@
 		],
 		"description": "Represents a link to an article or web page",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8745,7 +8745,7 @@
 		],
 		"description": "Represents a link to an MP3 audio file",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8790,7 +8790,7 @@
 		],
 		"description": "Represents a user contact",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8850,7 +8850,7 @@
 		],
 		"description": "Represents a link to a file",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8875,7 +8875,7 @@
 		],
 		"description": "Represents a game",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8930,7 +8930,7 @@
 		],
 		"description": "Represents a point on the map",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -8985,7 +8985,7 @@
 		],
 		"description": "Represents link to a JPEG image",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9030,7 +9030,7 @@
 		],
 		"description": "Represents a link to a WEBP sticker",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9075,7 +9075,7 @@
 		],
 		"description": "Represents information about a venue",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9140,7 +9140,7 @@
 		],
 		"description": "Represents a link to a page containing an embedded video player or a video file",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9180,7 +9180,7 @@
 		],
 		"description": "Represents a link to an opus-encoded audio file within an OGG container, single channel audio",
 		"inheritance": "InputInlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9189,7 +9189,7 @@
 		"methods": null,
 		"description": "Represents a single result of an inline query",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9229,7 +9229,7 @@
 		],
 		"description": "Represents a link to an article or web page",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9254,7 +9254,7 @@
 		],
 		"description": "Represents a user contact",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9284,7 +9284,7 @@
 		],
 		"description": "Represents a point on the map",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9309,7 +9309,7 @@
 		],
 		"description": "Represents information about a venue",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9329,7 +9329,7 @@
 		],
 		"description": "Represents information about a game",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9354,7 +9354,7 @@
 		],
 		"description": "Represents an animation file",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9374,7 +9374,7 @@
 		],
 		"description": "Represents an audio file",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9404,7 +9404,7 @@
 		],
 		"description": "Represents a document",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9434,7 +9434,7 @@
 		],
 		"description": "Represents a photo",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9454,7 +9454,7 @@
 		],
 		"description": "Represents a sticker",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9484,7 +9484,7 @@
 		],
 		"description": "Represents a video",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9509,7 +9509,7 @@
 		],
 		"description": "Represents a voice note",
 		"inheritance": "InlineQueryResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9544,7 +9544,7 @@
 		],
 		"description": "Represents the results of the inline query. Use sendInlineQueryResultMessage to send the result of the query",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9553,7 +9553,7 @@
 		"methods": null,
 		"description": "Represents a payload of a callback query",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9568,7 +9568,7 @@
 		],
 		"description": "The payload from a general callback button",
 		"inheritance": "CallbackQueryPayload",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9583,7 +9583,7 @@
 		],
 		"description": "The payload from a game callback button",
 		"inheritance": "CallbackQueryPayload",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9608,7 +9608,7 @@
 		],
 		"description": "Contains a bot's answer to a callback query",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9623,7 +9623,7 @@
 		],
 		"description": "Contains the result of a custom request",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9648,7 +9648,7 @@
 		],
 		"description": "Contains one row of the game high score table",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9663,7 +9663,7 @@
 		],
 		"description": "Contains a list of game high scores",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9672,7 +9672,7 @@
 		"methods": null,
 		"description": "Represents a chat event",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9692,7 +9692,7 @@
 		],
 		"description": "A message was edited",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9707,7 +9707,7 @@
 		],
 		"description": "A message was deleted",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9722,7 +9722,7 @@
 		],
 		"description": "A message was pinned",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9731,7 +9731,7 @@
 		"methods": null,
 		"description": "A message was unpinned",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9740,7 +9740,7 @@
 		"methods": null,
 		"description": "A new member joined the chat",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9749,7 +9749,7 @@
 		"methods": null,
 		"description": "A member left the chat",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9769,7 +9769,7 @@
 		],
 		"description": "A new chat member was invited",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9794,7 +9794,7 @@
 		],
 		"description": "A chat member has gained/lost administrator status, or the list of their administrator privileges has changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9819,7 +9819,7 @@
 		],
 		"description": "A chat member was restricted/unrestricted or banned/unbanned, or the list of their restrictions has changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9839,7 +9839,7 @@
 		],
 		"description": "The chat title was changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9859,7 +9859,7 @@
 		],
 		"description": "The chat description was changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9879,7 +9879,7 @@
 		],
 		"description": "The chat username was changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9899,7 +9899,7 @@
 		],
 		"description": "The chat photo was changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9914,7 +9914,7 @@
 		],
 		"description": "The anyone_can_invite setting of a supergroup chat was toggled",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9929,7 +9929,7 @@
 		],
 		"description": "The sign_messages setting of a channel was toggled",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9949,7 +9949,7 @@
 		],
 		"description": "The supergroup sticker set was changed",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9964,7 +9964,7 @@
 		],
 		"description": "The is_all_history_available setting of a supergroup was toggled",
 		"inheritance": "ChatEventAction",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -9994,7 +9994,7 @@
 		],
 		"description": "Represents a chat event",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10009,7 +10009,7 @@
 		],
 		"description": "Contains a list of chat events",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10069,7 +10069,7 @@
 		],
 		"description": "Represents a set of filters used to obtain a chat event log",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10078,7 +10078,7 @@
 		"methods": null,
 		"description": "Represents the value of a string in a language pack",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10093,7 +10093,7 @@
 		],
 		"description": "An ordinary language pack string",
 		"inheritance": "LanguagePackStringValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10133,7 +10133,7 @@
 		],
 		"description": "A language pack string which has different forms based on the number of some object it mentions. See https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html for more info",
 		"inheritance": "LanguagePackStringValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10142,7 +10142,7 @@
 		"methods": null,
 		"description": "A deleted language pack string, the value should be taken from the built-in english language pack",
 		"inheritance": "LanguagePackStringValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10162,7 +10162,7 @@
 		],
 		"description": "Represents one language pack string",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10177,7 +10177,7 @@
 		],
 		"description": "Contains a list of language pack strings",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10252,7 +10252,7 @@
 		],
 		"description": "Contains information about a language pack",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10267,7 +10267,7 @@
 		],
 		"description": "Contains information about the current localization target",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10276,7 +10276,7 @@
 		"methods": null,
 		"description": "Represents a data needed to subscribe for push notifications through registerDevice method. To use specific push notification service, you must specify the correct application platform and upload valid server authentication data at https://my.telegram.org",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10296,7 +10296,7 @@
 		],
 		"description": "A token for Firebase Cloud Messaging",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10316,7 +10316,7 @@
 		],
 		"description": "A token for Apple Push Notification service",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10341,7 +10341,7 @@
 		],
 		"description": "A token for Apple Push Notification service VoIP notifications",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10356,7 +10356,7 @@
 		],
 		"description": "A token for Windows Push Notification Services",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10371,7 +10371,7 @@
 		],
 		"description": "A token for Microsoft Push Notification Service",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10386,7 +10386,7 @@
 		],
 		"description": "A token for Microsoft Push Notification Service VoIP channel",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10411,7 +10411,7 @@
 		],
 		"description": "A token for web Push API",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10426,7 +10426,7 @@
 		],
 		"description": "A token for Simple Push API for Firefox OS",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10441,7 +10441,7 @@
 		],
 		"description": "A token for Ubuntu Push Client service",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10456,7 +10456,7 @@
 		],
 		"description": "A token for BlackBerry Push Service",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10471,7 +10471,7 @@
 		],
 		"description": "A token for Tizen Push Service",
 		"inheritance": "DeviceToken",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10486,7 +10486,7 @@
 		],
 		"description": "Contains a globally unique push receiver identifier, which can be used to identify which account has received a push notification",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10511,7 +10511,7 @@
 		],
 		"description": "Contains information about a wallpaper",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10526,7 +10526,7 @@
 		],
 		"description": "Contains a list of wallpapers",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10541,7 +10541,7 @@
 		],
 		"description": "Contains a list of hashtags",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10550,7 +10550,7 @@
 		"methods": null,
 		"description": "Represents result of checking whether a username can be set for a chat",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10559,7 +10559,7 @@
 		"methods": null,
 		"description": "The username can be set",
 		"inheritance": "CheckChatUsernameResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10568,7 +10568,7 @@
 		"methods": null,
 		"description": "The username is invalid",
 		"inheritance": "CheckChatUsernameResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10577,7 +10577,7 @@
 		"methods": null,
 		"description": "The username is occupied",
 		"inheritance": "CheckChatUsernameResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10586,7 +10586,7 @@
 		"methods": null,
 		"description": "The user has too much public chats, one of them should be made private first",
 		"inheritance": "CheckChatUsernameResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10595,7 +10595,7 @@
 		"methods": null,
 		"description": "The user can't be a member of a public supergroup",
 		"inheritance": "CheckChatUsernameResult",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10604,7 +10604,7 @@
 		"methods": null,
 		"description": "Contains content of a push message notification",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10619,7 +10619,7 @@
 		],
 		"description": "A general message with hidden content",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10644,7 +10644,7 @@
 		],
 		"description": "An animation message (GIF-style)",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10664,7 +10664,7 @@
 		],
 		"description": "An audio message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10684,7 +10684,7 @@
 		],
 		"description": "A message with a user contact",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10693,7 +10693,7 @@
 		"methods": null,
 		"description": "A contact has registered with Telegram",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10713,7 +10713,7 @@
 		],
 		"description": "A document message (a general file)",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10733,7 +10733,7 @@
 		],
 		"description": "A message with a game",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10758,7 +10758,7 @@
 		],
 		"description": "A new high score was achieved in a game",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10778,7 +10778,7 @@
 		],
 		"description": "A message with an invoice from a bot",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10798,7 +10798,7 @@
 		],
 		"description": "A message with a location",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10828,7 +10828,7 @@
 		],
 		"description": "A photo message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10848,7 +10848,7 @@
 		],
 		"description": "A message with a poll",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10857,7 +10857,7 @@
 		"methods": null,
 		"description": "A screenshot of a message in the chat has been taken",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10882,7 +10882,7 @@
 		],
 		"description": "A message with a sticker",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10902,7 +10902,7 @@
 		],
 		"description": "A text message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10932,7 +10932,7 @@
 		],
 		"description": "A video message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10952,7 +10952,7 @@
 		],
 		"description": "A video note message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10972,7 +10972,7 @@
 		],
 		"description": "A voice note message",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -10981,7 +10981,7 @@
 		"methods": null,
 		"description": "A newly created basic group",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11006,7 +11006,7 @@
 		],
 		"description": "New chat members were invited to a group",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11015,7 +11015,7 @@
 		"methods": null,
 		"description": "A chat photo was edited",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11030,7 +11030,7 @@
 		],
 		"description": "A chat title was edited",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11055,7 +11055,7 @@
 		],
 		"description": "A chat member was deleted",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11064,7 +11064,7 @@
 		"methods": null,
 		"description": "A new member joined the chat by invite link",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11079,7 +11079,7 @@
 		],
 		"description": "A forwarded messages",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11104,7 +11104,7 @@
 		],
 		"description": "A media album",
 		"inheritance": "PushMessageContent",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11113,7 +11113,7 @@
 		"methods": null,
 		"description": "Contains detailed information about a notification",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11128,7 +11128,7 @@
 		],
 		"description": "New message was received",
 		"inheritance": "NotificationType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11137,7 +11137,7 @@
 		"methods": null,
 		"description": "New secret chat was created",
 		"inheritance": "NotificationType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11152,7 +11152,7 @@
 		],
 		"description": "New call was received",
 		"inheritance": "NotificationType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11177,7 +11177,7 @@
 		],
 		"description": "New message was received through a push notification",
 		"inheritance": "NotificationType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11186,7 +11186,7 @@
 		"methods": null,
 		"description": "Describes type of notifications in the group",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11195,7 +11195,7 @@
 		"methods": null,
 		"description": "A group containing notifications of type notificationTypeNewMessage and notificationTypeNewPushMessage with ordinary unread messages",
 		"inheritance": "NotificationGroupType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11204,7 +11204,7 @@
 		"methods": null,
 		"description": "A group containing notifications of type notificationTypeNewMessage and notificationTypeNewPushMessage with unread mentions of the current user, replies to their messages, or a pinned message",
 		"inheritance": "NotificationGroupType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11213,7 +11213,7 @@
 		"methods": null,
 		"description": "A group containing a notification of type notificationTypeNewSecretChat",
 		"inheritance": "NotificationGroupType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11222,7 +11222,7 @@
 		"methods": null,
 		"description": "A group containing notifications of type notificationTypeNewCall",
 		"inheritance": "NotificationGroupType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11247,7 +11247,7 @@
 		],
 		"description": "Contains information about a notification",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11282,7 +11282,7 @@
 		],
 		"description": "Describes a group of notifications",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11291,7 +11291,7 @@
 		"methods": null,
 		"description": "Represents the value of an option",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11306,7 +11306,7 @@
 		],
 		"description": "Represents a boolean option",
 		"inheritance": "OptionValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11315,7 +11315,7 @@
 		"methods": null,
 		"description": "Represents an unknown option or an option which has a default value",
 		"inheritance": "OptionValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11330,7 +11330,7 @@
 		],
 		"description": "Represents an integer option",
 		"inheritance": "OptionValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11345,7 +11345,7 @@
 		],
 		"description": "Represents a string option",
 		"inheritance": "OptionValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11365,7 +11365,7 @@
 		],
 		"description": "Represents one member of a JSON object",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11374,7 +11374,7 @@
 		"methods": null,
 		"description": "Represents a JSON value",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11383,7 +11383,7 @@
 		"methods": null,
 		"description": "Represents a null JSON value",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11398,7 +11398,7 @@
 		],
 		"description": "Represents a boolean JSON value",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11413,7 +11413,7 @@
 		],
 		"description": "Represents a numeric JSON value",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11428,7 +11428,7 @@
 		],
 		"description": "Represents a string JSON value",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11443,7 +11443,7 @@
 		],
 		"description": "Represents a JSON array",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11458,7 +11458,7 @@
 		],
 		"description": "Represents a JSON object",
 		"inheritance": "JsonValue",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11467,7 +11467,7 @@
 		"methods": null,
 		"description": "Represents a single rule for managing privacy settings",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11476,7 +11476,7 @@
 		"methods": null,
 		"description": "A rule to allow all users to do something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11485,7 +11485,7 @@
 		"methods": null,
 		"description": "A rule to allow all of a user's contacts to do something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11500,7 +11500,7 @@
 		],
 		"description": "A rule to allow certain specified users to do something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11509,7 +11509,7 @@
 		"methods": null,
 		"description": "A rule to restrict all users from doing something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11518,7 +11518,7 @@
 		"methods": null,
 		"description": "A rule to restrict all contacts of a user from doing something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11533,7 +11533,7 @@
 		],
 		"description": "A rule to restrict all specified users from doing something",
 		"inheritance": "UserPrivacySettingRule",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11548,7 +11548,7 @@
 		],
 		"description": "A list of privacy rules. Rules are matched in the specified order. The first matched rule defines the privacy setting for a given user. If no rule matches, the action is not allowed",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11557,7 +11557,7 @@
 		"methods": null,
 		"description": "Describes available user privacy settings",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11566,7 +11566,7 @@
 		"methods": null,
 		"description": "A privacy setting for managing whether the user's online status is visible",
 		"inheritance": "UserPrivacySetting",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11575,7 +11575,7 @@
 		"methods": null,
 		"description": "A privacy setting for managing whether the user can be invited to chats",
 		"inheritance": "UserPrivacySetting",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11584,7 +11584,7 @@
 		"methods": null,
 		"description": "A privacy setting for managing whether the user can be called",
 		"inheritance": "UserPrivacySetting",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11593,7 +11593,7 @@
 		"methods": null,
 		"description": "A privacy setting for managing whether peer-to-peer connections can be used for calls",
 		"inheritance": "UserPrivacySetting",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11608,7 +11608,7 @@
 		],
 		"description": "Contains information about the period of inactivity after which the current user's account will automatically be deleted",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11693,7 +11693,7 @@
 		],
 		"description": "Contains information about one session in a Telegram application used by the current user. Sessions should be shown to the user in the returned order",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11708,7 +11708,7 @@
 		],
 		"description": "Contains a list of sessions",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11763,7 +11763,7 @@
 		],
 		"description": "Contains information about one website the current user is logged in with Telegram",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11778,7 +11778,7 @@
 		],
 		"description": "Contains a list of websites the current user is logged in with Telegram",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11793,7 +11793,7 @@
 		],
 		"description": "Contains information about the availability of the \"Report spam\" action for a chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11802,7 +11802,7 @@
 		"methods": null,
 		"description": "Describes the reason why a chat is reported",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11811,7 +11811,7 @@
 		"methods": null,
 		"description": "The chat contains spam messages",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11820,7 +11820,7 @@
 		"methods": null,
 		"description": "The chat promotes violence",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11829,7 +11829,7 @@
 		"methods": null,
 		"description": "The chat contains pornographic messages",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11838,7 +11838,7 @@
 		"methods": null,
 		"description": "The chat has child abuse related content",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11847,7 +11847,7 @@
 		"methods": null,
 		"description": "The chat contains copyrighted content",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11862,7 +11862,7 @@
 		],
 		"description": "A custom reason provided by the user",
 		"inheritance": "ChatReportReason",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11882,7 +11882,7 @@
 		],
 		"description": "Contains a public HTTPS link to a message in a public supergroup or channel",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11897,7 +11897,7 @@
 		],
 		"description": "Contains a part of a file",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11906,7 +11906,7 @@
 		"methods": null,
 		"description": "Represents the type of a file",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11915,7 +11915,7 @@
 		"methods": null,
 		"description": "The data is not a file",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11924,7 +11924,7 @@
 		"methods": null,
 		"description": "The file is an animation",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11933,7 +11933,7 @@
 		"methods": null,
 		"description": "The file is an audio file",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11942,7 +11942,7 @@
 		"methods": null,
 		"description": "The file is a document",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11951,7 +11951,7 @@
 		"methods": null,
 		"description": "The file is a photo",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11960,7 +11960,7 @@
 		"methods": null,
 		"description": "The file is a profile photo",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11969,7 +11969,7 @@
 		"methods": null,
 		"description": "The file was sent to a secret chat (the file type is not known to the server)",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11978,7 +11978,7 @@
 		"methods": null,
 		"description": "The file is a thumbnail of a file from a secret chat",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11987,7 +11987,7 @@
 		"methods": null,
 		"description": "The file is a file from Secure storage used for storing Telegram Passport files",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -11996,7 +11996,7 @@
 		"methods": null,
 		"description": "The file is a sticker",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12005,7 +12005,7 @@
 		"methods": null,
 		"description": "The file is a thumbnail of another file",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12014,7 +12014,7 @@
 		"methods": null,
 		"description": "The file type is not yet known",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12023,7 +12023,7 @@
 		"methods": null,
 		"description": "The file is a video",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12032,7 +12032,7 @@
 		"methods": null,
 		"description": "The file is a video note",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12041,7 +12041,7 @@
 		"methods": null,
 		"description": "The file is a voice note",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12050,7 +12050,7 @@
 		"methods": null,
 		"description": "The file is a wallpaper",
 		"inheritance": "FileType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12075,7 +12075,7 @@
 		],
 		"description": "Contains the storage usage statistics for a specific file type",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12105,7 +12105,7 @@
 		],
 		"description": "Contains the storage usage statistics for a specific chat",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12130,7 +12130,7 @@
 		],
 		"description": "Contains the exact storage usage statistics split by chats and file type",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12165,7 +12165,7 @@
 		],
 		"description": "Contains approximate storage usage statistics, excluding files of unknown file type",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12180,7 +12180,7 @@
 		],
 		"description": "Contains database statistics",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12189,7 +12189,7 @@
 		"methods": null,
 		"description": "Represents the type of a network",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12198,7 +12198,7 @@
 		"methods": null,
 		"description": "The network is not available",
 		"inheritance": "NetworkType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12207,7 +12207,7 @@
 		"methods": null,
 		"description": "A mobile network",
 		"inheritance": "NetworkType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12216,7 +12216,7 @@
 		"methods": null,
 		"description": "A mobile roaming network",
 		"inheritance": "NetworkType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12225,7 +12225,7 @@
 		"methods": null,
 		"description": "A Wi-Fi network",
 		"inheritance": "NetworkType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12234,7 +12234,7 @@
 		"methods": null,
 		"description": "A different network type (e.g., Ethernet network)",
 		"inheritance": "NetworkType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12243,7 +12243,7 @@
 		"methods": null,
 		"description": "Contains statistics about network usage",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12273,7 +12273,7 @@
 		],
 		"description": "Contains information about the total amount of data that was used to send and receive files",
 		"inheritance": "NetworkStatisticsEntry",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12303,7 +12303,7 @@
 		],
 		"description": "Contains information about the total amount of data that was used for calls",
 		"inheritance": "NetworkStatisticsEntry",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12323,7 +12323,7 @@
 		],
 		"description": "A full list of available network statistic entries",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12332,7 +12332,7 @@
 		"methods": null,
 		"description": "Describes the current state of the connection to Telegram servers",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12341,7 +12341,7 @@
 		"methods": null,
 		"description": "Currently waiting for the network to become available. Use SetNetworkType to change the available network type",
 		"inheritance": "ConnectionState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12350,7 +12350,7 @@
 		"methods": null,
 		"description": "Currently establishing a connection with a proxy server",
 		"inheritance": "ConnectionState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12359,7 +12359,7 @@
 		"methods": null,
 		"description": "Currently establishing a connection to the Telegram servers",
 		"inheritance": "ConnectionState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12368,7 +12368,7 @@
 		"methods": null,
 		"description": "Downloading data received while the client was offline",
 		"inheritance": "ConnectionState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12377,7 +12377,7 @@
 		"methods": null,
 		"description": "There is a working connection to the Telegram servers",
 		"inheritance": "ConnectionState",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12386,7 +12386,7 @@
 		"methods": null,
 		"description": "Represents the categories of chats for which a list of frequently used chats can be retrieved",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12395,7 +12395,7 @@
 		"methods": null,
 		"description": "A category containing frequently used private chats with non-bot users",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12404,7 +12404,7 @@
 		"methods": null,
 		"description": "A category containing frequently used private chats with bot users",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12413,7 +12413,7 @@
 		"methods": null,
 		"description": "A category containing frequently used basic groups and supergroups",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12422,7 +12422,7 @@
 		"methods": null,
 		"description": "A category containing frequently used channels",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12431,7 +12431,7 @@
 		"methods": null,
 		"description": "A category containing frequently used chats with inline bots sorted by their usage in inline mode",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12440,7 +12440,7 @@
 		"methods": null,
 		"description": "A category containing frequently used chats used for calls",
 		"inheritance": "TopChatCategory",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12449,7 +12449,7 @@
 		"methods": null,
 		"description": "Describes the type of a URL linking to an internal Telegram entity",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12464,7 +12464,7 @@
 		],
 		"description": "A URL linking to a user",
 		"inheritance": "TMeUrlType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12479,7 +12479,7 @@
 		],
 		"description": "A URL linking to a public supergroup or channel",
 		"inheritance": "TMeUrlType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12494,7 +12494,7 @@
 		],
 		"description": "A chat invite link",
 		"inheritance": "TMeUrlType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12509,7 +12509,7 @@
 		],
 		"description": "A URL linking to a sticker set",
 		"inheritance": "TMeUrlType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12529,7 +12529,7 @@
 		],
 		"description": "Represents a URL linking to an internal Telegram entity",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12544,7 +12544,7 @@
 		],
 		"description": "Contains a list of t.me URLs",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12559,7 +12559,7 @@
 		],
 		"description": "Contains a counter",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12574,7 +12574,7 @@
 		],
 		"description": "Contains some text",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12589,7 +12589,7 @@
 		],
 		"description": "Contains a value representing a number of seconds",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12609,7 +12609,7 @@
 		],
 		"description": "Contains information about a tg:// deep link",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12618,7 +12618,7 @@
 		"methods": null,
 		"description": "Describes the way the text should be parsed for TextEntities",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12627,7 +12627,7 @@
 		"methods": null,
 		"description": "The text should be parsed in markdown-style",
 		"inheritance": "TextParseMode",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12636,7 +12636,7 @@
 		"methods": null,
 		"description": "The text should be parsed in HTML-style",
 		"inheritance": "TextParseMode",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12645,7 +12645,7 @@
 		"methods": null,
 		"description": "Describes the type of the proxy server",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12665,7 +12665,7 @@
 		],
 		"description": "A SOCKS5 proxy server",
 		"inheritance": "ProxyType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12690,7 +12690,7 @@
 		],
 		"description": "A HTTP transparent proxy server",
 		"inheritance": "ProxyType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12705,7 +12705,7 @@
 		],
 		"description": "An MTProto proxy server",
 		"inheritance": "ProxyType",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12745,7 +12745,7 @@
 		],
 		"description": "Contains information about a proxy server",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12760,7 +12760,7 @@
 		],
 		"description": "Represents a list of proxy servers",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12785,7 +12785,7 @@
 		],
 		"description": "Describes a sticker that should be added to a sticker set",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12794,7 +12794,7 @@
 		"methods": null,
 		"description": "Contains notifications about data changes",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12809,7 +12809,7 @@
 		],
 		"description": "The user authorization state has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12824,7 +12824,7 @@
 		],
 		"description": "A new message was received; can also be an outgoing message",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12844,7 +12844,7 @@
 		],
 		"description": "A request to send a message has reached the Telegram server. This doesn't mean that the message will be sent successfully or even that the send message request will be processed. This update will be sent only if the option \"use_quick_ack\" is set to true. This update may be sent multiple times for the same message",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12864,7 +12864,7 @@
 		],
 		"description": "A message has been successfully sent",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12894,7 +12894,7 @@
 		],
 		"description": "A message failed to send. Be aware that some messages being sent can be irrecoverably deleted, in which case updateDeleteMessages will be received instead of this update",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12919,7 +12919,7 @@
 		],
 		"description": "The message content has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12949,7 +12949,7 @@
 		],
 		"description": "A message was edited. Changes in the message content will come in a separate updateMessageContent",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12974,7 +12974,7 @@
 		],
 		"description": "The view count of the message has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -12994,7 +12994,7 @@
 		],
 		"description": "The message content was opened. Updates voice note messages to \"listened\", video note messages to \"viewed\" and starts the TTL timer for self-destructing messages",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13019,7 +13019,7 @@
 		],
 		"description": "A message with an unread mention was read",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13034,7 +13034,7 @@
 		],
 		"description": "A new chat has been loaded/created. This update is guaranteed to come before the chat identifier is returned to the client. The chat field changes will be reported through separate updates",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13054,7 +13054,7 @@
 		],
 		"description": "The title of a chat was changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13074,7 +13074,7 @@
 		],
 		"description": "A chat photo was changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13099,7 +13099,7 @@
 		],
 		"description": "The last message of a chat was changed. If last_message is null then the last message in the chat became unknown. Some new unknown messages might be added to the chat in this case",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13119,7 +13119,7 @@
 		],
 		"description": "The order of the chat in the chat list has changed. Instead of this update updateChatLastMessage, updateChatIsPinned or updateChatDraftMessage might be sent",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13144,7 +13144,7 @@
 		],
 		"description": "A chat was pinned or unpinned",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13164,7 +13164,7 @@
 		],
 		"description": "A chat was marked as unread or was read",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13189,7 +13189,7 @@
 		],
 		"description": "A chat's is_sponsored field has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13209,7 +13209,7 @@
 		],
 		"description": "The value of the default disable_notification parameter, used when a message is sent to the chat, was changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13234,7 +13234,7 @@
 		],
 		"description": "Incoming messages were read or number of unread messages has been changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13254,7 +13254,7 @@
 		],
 		"description": "Outgoing messages were read",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13274,7 +13274,7 @@
 		],
 		"description": "The chat unread_mention_count has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13294,7 +13294,7 @@
 		],
 		"description": "Notification settings for a chat were changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13314,7 +13314,7 @@
 		],
 		"description": "Notification settings for some type of chats were updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13334,7 +13334,7 @@
 		],
 		"description": "The chat pinned message was changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13354,7 +13354,7 @@
 		],
 		"description": "The default chat reply markup was changed. Can occur because new messages with reply markup were received or because an old reply markup was hidden by the user",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13379,7 +13379,7 @@
 		],
 		"description": "A chat draft has changed. Be aware that the update may come in the currently opened chat but with old content of the draft. If the user has changed the content of the draft, this update shouldn't be applied",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13399,7 +13399,7 @@
 		],
 		"description": "The number of online group members has changed. This update with non-zero count is sent only for currently opened chats. There is no guarantee that it will be sent just after the count has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13419,7 +13419,7 @@
 		],
 		"description": "A notification was changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13469,7 +13469,7 @@
 		],
 		"description": "A list of active notifications in a notification group has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13484,7 +13484,7 @@
 		],
 		"description": "Contains active notifications that was shown on previous application launches. This update is sent only if a message database is used. In that case it comes once before any updateNotification and updateNotificationGroup update",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13504,7 +13504,7 @@
 		],
 		"description": "Describes, whether there are some pending notification updates. Can be used to prevent application from killing, while there are some pending notifications",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13534,7 +13534,7 @@
 		],
 		"description": "Some messages were deleted",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13559,7 +13559,7 @@
 		],
 		"description": "User activity in the chat has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13579,7 +13579,7 @@
 		],
 		"description": "The user went online or offline",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13594,7 +13594,7 @@
 		],
 		"description": "Some data of a user has changed. This update is guaranteed to come before the user identifier is returned to the client",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13609,7 +13609,7 @@
 		],
 		"description": "Some data of a basic group has changed. This update is guaranteed to come before the basic group identifier is returned to the client",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13624,7 +13624,7 @@
 		],
 		"description": "Some data of a supergroup or a channel has changed. This update is guaranteed to come before the supergroup identifier is returned to the client",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13639,7 +13639,7 @@
 		],
 		"description": "Some data of a secret chat has changed. This update is guaranteed to come before the secret chat identifier is returned to the client",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13659,7 +13659,7 @@
 		],
 		"description": "Some data from userFullInfo has been changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13679,7 +13679,7 @@
 		],
 		"description": "Some data from basicGroupFullInfo has been changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13699,7 +13699,7 @@
 		],
 		"description": "Some data from supergroupFullInfo has been changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13719,7 +13719,7 @@
 		],
 		"description": "Service notification from the server. Upon receiving this the client must show a popup with the content of the notification",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13734,7 +13734,7 @@
 		],
 		"description": "Information about a file was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13764,7 +13764,7 @@
 		],
 		"description": "The file generation process needs to be started by the client",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13779,7 +13779,7 @@
 		],
 		"description": "File generation is no longer needed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13794,7 +13794,7 @@
 		],
 		"description": "New call was created or information about a call was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13814,7 +13814,7 @@
 		],
 		"description": "Some privacy setting rules have been changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13834,7 +13834,7 @@
 		],
 		"description": "Number of unread messages has changed. This update is sent only if a message database is used",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13864,7 +13864,7 @@
 		],
 		"description": "Number of unread chats, i.e. with unread messages or marked as unread, has changed. This update is sent only if a message database is used",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13884,7 +13884,7 @@
 		],
 		"description": "An option changed its value",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13904,7 +13904,7 @@
 		],
 		"description": "The list of installed sticker sets was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13919,7 +13919,7 @@
 		],
 		"description": "The list of trending sticker sets was updated or some of them were viewed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13939,7 +13939,7 @@
 		],
 		"description": "The list of recently used stickers was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13954,7 +13954,7 @@
 		],
 		"description": "The list of favorite stickers was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13969,7 +13969,7 @@
 		],
 		"description": "The list of saved animations was updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -13994,7 +13994,7 @@
 		],
 		"description": "Some language pack strings have been updated",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14009,7 +14009,7 @@
 		],
 		"description": "The connection state has changed",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14029,7 +14029,7 @@
 		],
 		"description": "New terms of service must be accepted by the user. If the terms of service are declined, then the deleteAccount method should be called with the reason \"Decline ToS update\"",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14064,7 +14064,7 @@
 		],
 		"description": "A new incoming inline query; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14099,7 +14099,7 @@
 		],
 		"description": "The user has chosen a result of an inline query; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14139,7 +14139,7 @@
 		],
 		"description": "A new incoming callback query; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14174,7 +14174,7 @@
 		],
 		"description": "A new incoming callback query from a message sent via a bot; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14204,7 +14204,7 @@
 		],
 		"description": "A new incoming shipping query; for bots only. Only for invoices with flexible price",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14249,7 +14249,7 @@
 		],
 		"description": "A new incoming pre-checkout query; for bots only. Contains full information about a checkout",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14264,7 +14264,7 @@
 		],
 		"description": "A new incoming event; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14289,7 +14289,7 @@
 		],
 		"description": "A new incoming query; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14304,7 +14304,7 @@
 		],
 		"description": "Information about a poll was updated; for bots only",
 		"inheritance": "Update",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14319,7 +14319,7 @@
 		],
 		"description": "Contains a list of updates",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14328,7 +14328,7 @@
 		"methods": null,
 		"description": "Describes a stream to which TDLib internal log is written",
 		"inheritance": "TLBaseClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14337,7 +14337,7 @@
 		"methods": null,
 		"description": "The log is written to stderr or an OS specific log",
 		"inheritance": "LogStream",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14357,7 +14357,7 @@
 		],
 		"description": "The log is written to a file",
 		"inheritance": "LogStream",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14366,7 +14366,7 @@
 		"methods": null,
 		"description": "The log is written nowhere",
 		"inheritance": "LogStream",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14381,7 +14381,7 @@
 		],
 		"description": "Contains a TDLib internal log verbosity level",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14396,7 +14396,7 @@
 		],
 		"description": "Contains a list of available TDLib internal log tags",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14411,7 +14411,7 @@
 		],
 		"description": "A simple object containing a number; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14426,7 +14426,7 @@
 		],
 		"description": "A simple object containing a string; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14441,7 +14441,7 @@
 		],
 		"description": "A simple object containing a sequence of bytes; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14456,7 +14456,7 @@
 		],
 		"description": "A simple object containing a vector of numbers; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14471,7 +14471,7 @@
 		],
 		"description": "A simple object containing a vector of objects that hold a number; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14486,7 +14486,7 @@
 		],
 		"description": "A simple object containing a vector of strings; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
@@ -14501,7 +14501,7 @@
 		],
 		"description": "A simple object containing a vector of objects that hold a string; for testing only",
 		"inheritance": "BaseTLClass",
-		"return_type": null,
+		"return_type": "",
 		"isFunction": false,
 		"isSynchronous": false
 	},
