@@ -15,17 +15,17 @@ module tlscheme2json;
 enum DEFAULT_TL_URL = "https://raw.githubusercontent.com/tdlib/td/master/td/generate/scheme/td_api.tl";
 
 class TLMethod {
-    string name;
-    string type;
-    string description;
+    string name = "";
+    string type = "";
+    string description = "";
 }
 
 class TLClass {
-    string name;
+    string name = "";
     TLMethod[] methods;
-    string description;
-    string inheritance;
-    string return_type;
+    string description = "";
+    string inheritance = "";
+    string return_type = "";
     bool isFunction;
     bool isSynchronous;
 }
@@ -96,12 +96,12 @@ class TLScheme2Json {
         return this.classList.serializeToJsonPretty();
     }
 
-    void parseType(ref string* lineptr, bool isFunction) {
+    private void parseType(ref string* lineptr, bool isFunction) {
         auto tlClass = implParse(lineptr, isFunction);
         this.classList ~= tlClass;
     }
 
-    void parseClass(string line, bool isFunction) {
+    private void parseClass(string line, bool isFunction) {
         import std.array : split;
         import std.array : replace;
         import std.string : strip;
@@ -115,7 +115,7 @@ class TLScheme2Json {
         this.classList ~= tlClass;
     }
 
-    TLClass implParse(ref string* lineptr, bool isFunction) {
+    private TLClass implParse(ref string* lineptr, bool isFunction) {
         import std.array : empty;
         import std.array : split;
         import std.array : join;
@@ -127,10 +127,10 @@ class TLScheme2Json {
         import std.uni : toLower;
         import std.stdio : writeln;
 
-        string name;
-        string description;
-        string inheritance;
-        string return_type;
+        string name = "";
+        string description = "";
+        string inheritance = "";
+        string return_type = "";
         bool isSynchronous = false;
         TLMethod[] methods;
 
@@ -159,6 +159,7 @@ class TLScheme2Json {
                 methods[i] = new TLMethod();
                 methods[i].name = methodProperties[0];
                 methods[i].type = methodProperties[1];
+                methods[i].description = "";
             }
 
             auto rawreturn = fields[fields.length -1].stripRight(";");
@@ -214,5 +215,21 @@ class TLScheme2Json {
         tlClass.isFunction = isFunction;
         tlClass.isSynchronous = isSynchronous;
         return tlClass;
+    }
+
+    TLClass[] getTLClasses() {
+        return this.classList;
+    }
+
+    static TLClass[] get() {
+        auto tlScheme2Json = new TLScheme2Json();
+	tlScheme2Json.parse();
+	return tlScheme2Json.getTLClasses(); 
+    }
+
+    static TLClass[] get(string scheme) {
+        auto tlScheme2Json = new TLScheme2Json(scheme);
+        tlScheme2Json.parse();
+        return tlScheme2Json.getTLClasses();
     }
 }

@@ -11,7 +11,7 @@
  */
 
 void main(string[] args) {
-    import tlscheme2json;
+    import tlscheme2json : TLScheme2Json;
     import std.getopt : getopt;
     import std.getopt : config;
     import std.array : empty;
