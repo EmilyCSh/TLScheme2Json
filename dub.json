@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Emily"
+	],
+	"copyright": "Copyright 2019 Emily <info@emy.sh>",
+	"dependencies": {
+		"asdf": "~>0.4.6"
+	},
+	"description": "A TLScheme generator for Json",
+	"license": "MPL-2.0 with extra appendix",
+	"name": "tlscheme2json"
+}
