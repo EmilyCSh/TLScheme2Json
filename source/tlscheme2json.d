@@ -13,6 +13,7 @@
 module tlscheme2json; 
 
 enum DEFAULT_TL_URL = "https://raw.githubusercontent.com/tdlib/td/master/td/generate/scheme/td_api.tl";
+enum BASECLASS_NAME = "TLBaseClass";
 
 class TLMethod {
     string name = "";
@@ -110,7 +111,7 @@ class TLScheme2Json {
         auto tlClass = new TLClass(); 
         tlClass.name = lineSplit[1].replace("class", "").strip();
         tlClass.description = lineSplit[2].replace("description", "").strip();
-        tlClass.inheritance = "TLBaseClass";
+        tlClass.inheritance = BASECLASS_NAME;
         tlClass.isFunction = isFunction;
         this.classList ~= tlClass;
     }
@@ -177,7 +178,7 @@ class TLScheme2Json {
             }
 
             if(inheritance == null) {
-                inheritance = "BaseTLClass";
+                inheritance = BASECLASS_NAME;
             }
 
             if(isFunction && return_type.empty) {
